@@ -10,9 +10,6 @@ class templateMod extends PolyMod {
     override postInit = () => {
         // post init
     }
-    override simInit = () => {
-        // sim init here
-    } 
 }
 
 export let polyMod = new templateMod();
