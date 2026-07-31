@@ -1,10 +1,14 @@
-import { PolyMod, PolyModLoader } from "https://cdn.polymodloader.com/cb/polytrackmods/PolyModLoader/0.6.0/PolyTypes.js";
+import {PolyMod, PolyModLoader} from "https://cdn.polymodloader.com/pml/PolyModLoader/0.6.2/PolyTypes.js";
 
 class templateMod extends PolyMod {
-    override preInit = (pml:PolyModLoader) => {
+    pml!: PolyModLoader;
+
+    override preInit = (pml: PolyModLoader) => {
+        this.pml = pml; // make pml available outside of preInit/init
         // pre init
     }
-    override init = (pml:PolyModLoader) => {
+    override init = (pml: PolyModLoader) => {
+        this.pml = pml;
         // regular init
     }
     override postInit = () => {

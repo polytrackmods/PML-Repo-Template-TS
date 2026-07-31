@@ -5,31 +5,33 @@
     "module": "ES2020",
     "moduleDetection": "force",
     "allowJs": true,
-
     // Bundler mode
     "moduleResolution": "bundler",
-
     // Best practices
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
-
     "paths": {
-      "https://cdn.polymodloader.com/cb/polytrackmods/PolyModLoader/0.6.0/PolyTypes.js": [
-        "./types/PolyTypes.d.ts"
+      "https://cdn.polymodloader.com/pml/PolyModLoader/0.6.2/PolyTypes.js": [
+        "./PolyModLoader/PolyTypes.d.ts"
       ]
     },
-    "noEmitOnError": false,
+    "noEmitOnError": false
   },
-
-  "files": [ "./types/PolyTypes.d.ts" ],
-  "include": ["./*.*.*/*.ts"],
-  "exclude": [ "PolyModLoader/**/*", "node_modules/**" ]
+  "files": [
+    "./PolyModLoader/PolyTypes.d.ts"
+  ],
+  "include": [
+    "./*.*.*/*.ts"
+  ],
+  "exclude": [
+    "PolyModLoader/**/*",
+    "node_modules/**"
+  ]
 }

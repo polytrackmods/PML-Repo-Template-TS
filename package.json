@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "concurrently": "^10.0.4",
+    "http-server": "^14.1.1",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "tsc && concurrently \"npx tsc --watch\" \"npx http-server -c-1 --cors -p 8081 ./\" \"npx http-server ./PolyModLoader -c-1 --cors -p 8080\"",
+    "build": "tsc"
+  }
+}

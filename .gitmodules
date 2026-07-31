@@ -1,0 +1,3 @@
+[submodule "PolyModLoader"]
+	path = PolyModLoader
+	url = ssh://git@git-ssh.polymodloader.com/polytrackmods/PolyModLoader.git
