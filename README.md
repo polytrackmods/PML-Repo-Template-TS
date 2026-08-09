@@ -18,6 +18,7 @@ It is recommended to use an IDE with TypeScript support like VSCode or WebStorm
 
 ### Testing
 
-To test your mod, run ``npm run dev``, then open http://localhost:8080 in your browser and import http://localhost:8081
-as a pml mod. Any changes to the TypeScript files will automatically trigger a compile, so you won't have to worry about
-compiling.
+To test your mod, run ``npm run dev``, then open https://w.polymodloader.com in your browser and
+import http://localhost:8081 as a pml mod. \
+Make sure to disable `cache mods` in PML settings. \
+Any changes to the TypeScript files will automatically trigger a compile, so you won't have to worry about compiling.
