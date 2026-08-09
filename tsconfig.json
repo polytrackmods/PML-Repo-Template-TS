@@ -19,13 +19,13 @@
     "noPropertyAccessFromIndexSignature": false,
     "paths": {
       "https://cdn.polymodloader.com/pml/PolyModLoader/0.6.2/PolyTypes.js": [
-        "./PolyModLoader/PolyTypes.d.ts"
+        "./PolyTypes.d.ts"
       ]
     },
     "noEmitOnError": false
   },
   "files": [
-    "./PolyModLoader/PolyTypes.d.ts"
+    "./PolyTypes.d.ts"
   ],
   "include": [
     "./*.*.*/*.ts"

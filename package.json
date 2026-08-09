@@ -6,6 +6,7 @@
   },
   "scripts": {
     "dev": "tsc && concurrently \"npx tsc --watch\" \"npx http-server -c-1 --cors -p 8081 ./\" \"npx http-server ./PolyModLoader -c-1 --cors -p 8080\"",
-    "build": "tsc"
+    "build": "tsc",
+    "types": "node scripts/update_types.mjs"
   }
 }
