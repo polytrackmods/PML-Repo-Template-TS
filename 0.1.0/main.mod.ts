@@ -7,7 +7,7 @@ class templateMod extends PolyMod {
         this.pml = pml; // make pml available outside of preInit/init
         // pre init
     }
-    override init = (pml: PolyModLoader) => {
+    override init = async (pml: PolyModLoader) => {
         this.pml = pml;
         // regular init
     }
