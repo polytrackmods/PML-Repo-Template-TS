@@ -1,4 +1,4 @@
-import {PolyMod, PolyModLoader} from "https://cdn.polymodloader.com/pml/PolyModLoader/0.6.2/PolyTypes.js";
+import {PolyMod, PolyModLoader} from "https://cdn.polymodloader.com/pml/PolyModLoader/0.6.3/PolyTypes.js";
 
 class templateMod extends PolyMod {
     pml!: PolyModLoader;
