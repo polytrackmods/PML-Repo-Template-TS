@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 
-const polytypes_url = "https://git.polymodloader.com/polytrackmods/PolyModLoader/raw/branch/0.6.2/PolyTypes.d.ts"
+const polytypes_url = "https://git.polymodloader.com/polytrackmods/PolyModLoader/raw/branch/0.6.3/PolyTypes.d.ts"
 
 async function update_polytypes() {
     const polytypes_raw = await fetch(polytypes_url)
